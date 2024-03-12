@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matikkapeli</string>
+    <string name="about">Pelistä</string>
+    <string name="addition">Yhteen</string>
+    <string name="deduction">Vähennys</string>
+    <string name="game_over">Peli ohi</string>
+    <string name="rules">Säännöt</string>
+    <string name="start">Aloita</string>
+    <string name="welcome_to_play_math_game">Tervetuloa pelaamaan matikkapeliä!</string>
+    <string name="choose_game">Valitse peli</string>
+    <string name="rules_text">Tavoite:\n
+    Kerää pisteitä ratkaisemalla yhteen- ja vähennyslaskuja.\n\n
+    Pisteytys:\n
+    Saat pisteitä jokaisesta oikein ratkaistusta tehtävästä.\n\n
+    Tehtävät:\n
+    Voit valita, haluatko laskea yhteen vai vähennyslaskuja.\n\n
+    Aika:\n
+    Ajanotto juoksee jokaisessa tehtävässä.</string>
+    <string name="welcome_to_deductions">Tervetuloa laskemaan vähennyslaskuja!</string>
+    <string name="exercise">Tehtävä</string>
+    <string name="points">Pisteet</string>
+    <string name="timer">Aika</string>
+    <string name="check">Tarkista</string>
+    <string name="welcome_to_sum_up">Tervetuloa laskemaan yhteenlaskuja!</string>
+    <string name="play_again">Uusi peli</string>
+    <string name="game_over_text">Peli Ohi</string>
+    <string name="you_counted">Sinä laskit</string>
+    <string name="thanks_sums">Kiitos että laskit yhteenlaskuja</string>
+    <string name="thanks_deductions">Kiitos että laskit vähennyslaskuja</string>
+</resources>

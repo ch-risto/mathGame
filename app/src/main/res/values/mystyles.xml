@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeadingStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginHorizontal">20dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#EACBDA</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#BEBEBC</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="SubHeadingStyle" parent="HeadingStyle">
+        <item name="android:textColor">#666665</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle" parent="SubHeadingStyle">
+        <item name="android:layout_marginHorizontal">0dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyle2" parent="TextStyle">
+        <item name="android:textColor">#BEBEBC</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">#EACBDA</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">50sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FEF7F1</item>
+    </style>
+</resources>
