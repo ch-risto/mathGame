@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="about">About</string>
     <string name="addition">Addition</string>
-    <string name="deduction">Deduction</string>
+    <string name="deduction">Subtraction</string>
     <string name="game_over">Game Over</string>
     <string name="rules">Rules</string>
     <string name="start">Start</string>
@@ -18,7 +18,7 @@
     Encounter various addition and subtraction challenges.\n\n
     Time:\n
     The clock is ticking for each task.</string>
-    <string name="welcome_to_deductions">Welcome to count deductions!</string>
+    <string name="welcome_to_deductions">Welcome to count subtractions!</string>
     <string name="exercise">Exercise</string>
     <string name="points">Points</string>
     <string name="timer">Timer</string>
@@ -28,7 +28,5 @@
     <string name="game_over_text">Game Over</string>
     <string name="you_counted">You counted</string>
     <string name="thanks_sums">Thank you for counting sums</string>
-    <string name="thanks_deductions">Thank you for calculating deductions</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thanks_deductions">Thank you for calculating subtractions</string>
 </resources>
