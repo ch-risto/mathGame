@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StartFragment">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            style="@style/HeadingStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome_to_play_math_game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewChoose"
+            style="@style/SubHeadingStyle"
+            android:layout_marginTop="25dp"
+            android:text="@string/choose_game"
+            app:layout_constraintStart_toStartOf="@+id/textViewWelcome"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWelcome" />
+
+        <Button
+            android:id="@+id/buttonAddition"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="25dp"
+            android:text="@string/addition"
+            app:layout_constraintEnd_toStartOf="@+id/buttonDeduction"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewChoose" />
+
+        <Button
+            android:id="@+id/buttonDeduction"
+            style="@style/ButtonStyle"
+            android:text="@string/deduction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonAddition"
+            app:layout_constraintTop_toTopOf="@+id/buttonAddition" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

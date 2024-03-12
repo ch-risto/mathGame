@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.harjoitus3_6.StartFragment"
+        android:label="@string/start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_additionFragment"
+            app:destination="@id/additionFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_deductionFragment"
+            app:destination="@id/deductionFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_rulesFragment"
+            app:destination="@id/rulesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.harjoitus3_6.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/additionFragment"
+        android:name="com.example.harjoitus3_6.AdditionFragment"
+        android:label="@string/addition"
+        tools:layout="@layout/fragment_addition">
+        <action
+            android:id="@+id/action_additionFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment"
+            app:popUpTo="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deductionFragment"
+        android:name="com.example.harjoitus3_6.DeductionFragment"
+        android:label="@string/deduction"
+        tools:layout="@layout/fragment_deduction">
+        <action
+            android:id="@+id/action_deductionFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment"
+            app:popUpTo="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.harjoitus3_6.RulesFragment"
+        android:label="@string/rules"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.example.harjoitus3_6.GameOverFragment"
+        android:label="@string/game_over"
+        tools:layout="@layout/fragment_game_over">
+        <action
+            android:id="@+id/action_gameOverFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <argument
+            android:name="Points"
+            app:argType="integer" />
+        <argument
+            android:name="Calculation"
+            app:argType="string" />
+        <argument
+            android:name="Time"
+            app:argType="integer" />
+        <argument
+            android:name="NumQuestions"
+            app:argType="integer" />
+    </fragment>
+</navigation>
